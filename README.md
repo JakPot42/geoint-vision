@@ -27,7 +27,7 @@ python main.py analyze --lat LAT --lon LON --before-start D --before-end D --aft
 
 ## Data sourcing
 
-**CLAUDE.md named the "Copernicus Open Access Hub API."** That service
+**The original spec named the "Copernicus Open Access Hub API."** That service
 was decommissioned in October 2023, replaced by the Copernicus Data Space
 Ecosystem — which requires a registered account (free, but self-serve
 registration needs a human, not something buildable/testable
@@ -99,7 +99,7 @@ deterministic template on any API error). **No API key was available in
 this build environment**, so the live vision call path was never
 exercised against a real network call this session — the same honest gap
 already on record for this portfolio's other vision-capable project
-(P38 BillShield AI). `DEMO_MODE` (default) uses a template built only
+(BillShield AI). `DEMO_MODE` (default) uses a template built only
 from the real pixel-difference statistics — it does not invent a visual
 description, since unlike every other `DEMO_MODE` fallback in this
 portfolio, there's no rule-based way to describe image content.
